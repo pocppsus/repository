@@ -1,0 +1,52 @@
+<html>
+<body>
+<h2>Flat XML parser RESTful Web Application!</h2>
+<fieldset>
+ <legend>Generate Flat XML model</legend>
+    <form action="webresources/xml_flat_model" method="post" enctype="multipart/form-data">
+       <p>
+        Archetype compostition name : <input type="text" name="archetype_id" size="50" required/>
+       </p>
+       <input type="submit" value="Submit" />
+    </form>
+</fieldset>
+
+<fieldset>
+ <legend>Archetype Upload</legend>
+    <form action="webresources/upload_adl" method="post" enctype="multipart/form-data">
+       <p>
+        Achetype file: <input type="file" name="file" size="50" required/>
+       </p>
+       <input type="submit" value="Submit" />
+    </form>
+</fieldset>
+
+<fieldset>
+ <legend>Generate extract starting  XML Flat</legend>
+    <form action="webresources/extract_conversor" method="post" enctype="multipart/form-data">
+       <p>
+        Flat XML File: <input type="file" name="file" size="50" required/>
+       </p>
+       <input type="submit" value="Submit" />
+    </form>
+</fieldset>
+<fieldset>
+ <legend>Generate Flat XML starting EHRExtract</legend>
+    <form action="webresources/xml_flat_conversor" method="post" enctype="multipart/form-data">
+       <p>
+        EHRExtract File : <input type="file" name="file" size="50" required/>
+       </p>
+       <input type="submit" value="Submit" />
+    </form>
+</fieldset>
+<fieldset>
+ <legend>Generate XSD for the XML Flat</legend>
+    <form action="webresources/xsd_generator" method="post" enctype="multipart/form-data">
+       <p>
+        Archetype file: <input type="text" name="archetype_id" size="50" required/>
+       </p>
+       <input type="submit" value="Submit" />
+    </form>
+</fieldset>	
+</body>
+</html>

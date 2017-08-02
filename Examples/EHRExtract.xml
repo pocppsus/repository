@@ -1,0 +1,1572 @@
+<EHR_EXTRACT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="CEN/13606/RM">
+  <ehr_system>
+    <extension>2</extension>
+    <root>
+      <oid>2010.05.24.1.10000</oid>
+    </root>
+  </ehr_system>
+  <ehr_id>
+    <extension>XXX</extension>
+    <root>
+      <oid>2010.05.24.1.10001</oid>
+    </root>
+  </ehr_id>
+  <subject_of_care>
+    <extension>XXX</extension>
+    <root>
+      <oid>2010.05.24.1.10002</oid>
+    </root>
+  </subject_of_care>
+  <time_created>
+    <time>2016-06-22T17:55:29</time>
+  </time_created>
+  <rm_id>ISO-13606</rm_id>
+  <all_compositions>
+    <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2</archetype_id>
+    <rc_id>
+      <extension>791eaca2-df5e-4812-9929-1a1233b75559</extension>
+      <root>
+        <oid>2010.05.24.1.10003</oid>
+      </root>
+    </rc_id>
+    <session_time>
+      <low>
+        <time>2016-06-22T17:55:01</time>
+      </low>
+      <high>
+        <time>2016-06-22T17:55:01</time>
+      </high>
+    </session_time>
+    <committal>
+      <ehr_system>
+        <extension>2</extension>
+        <root>
+          <oid>2010.05.24.1.10000</oid>
+        </root>
+      </ehr_system>
+      <time_committed>
+        <time>2016-06-22T17:55:01</time>
+      </time_committed>
+      <committer>
+        <extension>10369348613</extension>
+        <root>
+          <oid>2010.05.24.1.10004</oid>
+        </root>
+      </committer>
+      <version_status>
+        <codingScheme>
+          <oid>2010.05.24.1.10005</oid>
+        </codingScheme>
+        <codeValue>VER01</codeValue>
+      </version_status>
+    </committal>
+    <composer>
+      <performer>
+        <extension>10369348613</extension>
+        <root>
+          <oid>2010.05.24.1.10006</oid>
+        </root>
+      </performer>
+      <healthcare_facillity>
+        <extension>3118302136880</extension>
+        <root>
+          <oid>2010.05.24.1.10007</oid>
+        </root>
+      </healthcare_facillity>
+    </composer>
+    <content xsi:type="SECTION">
+      <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0001</archetype_id>
+      <rc_id>
+        <extension>9054c515-01e5-43f1-bede-b1f39551af9c</extension>
+        <root>
+          <oid>2010.05.24.1.10003</oid>
+        </root>
+      </rc_id>
+      <members xsi:type="ENTRY">
+        <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0015</archetype_id>
+        <rc_id>
+          <extension>a187694e-b021-43a6-873e-7e6084cc0b38</extension>
+          <root>
+            <oid>2010.05.24.1.10003</oid>
+          </root>
+        </rc_id>
+        <uncertainty_expressed>false</uncertainty_expressed>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0058</archetype_id>
+          <rc_id>
+            <extension>fd7cb9a1-2340-4f80-938d-7143f964dae9</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="SIMPLE_TEXT">
+            <originalText>Urgência</originalText>
+          </value>
+        </items>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0072</archetype_id>
+          <rc_id>
+            <extension>51451fed-a5c3-4e92-a75c-be6a266f3b27</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="TS">
+            <time>2014-09-23T00:17:00</time>
+          </value>
+        </items>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0096</archetype_id>
+          <rc_id>
+            <extension>5f9b4867-b163-4184-b60e-17721289bcc8</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="TS">
+            <time>2014-10-30T17:00:00</time>
+          </value>
+        </items>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0105</archetype_id>
+          <rc_id>
+            <extension>61794acb-afd2-42d9-82fe-609eecc4faa0</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="SIMPLE_TEXT">
+            <originalText>7:16:43:0</originalText>
+          </value>
+        </items>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0118</archetype_id>
+          <rc_id>
+            <extension>8a1b8449-9d95-43ce-b6de-be3350d2fb8a</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="SIMPLE_TEXT">
+            <originalText>Hospitalar</originalText>
+          </value>
+        </items>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0184</archetype_id>
+          <rc_id>
+            <extension>c8de9e2c-da35-41c3-a64f-6bff19073491</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0161</archetype_id>
+            <rc_id>
+              <extension>9a0e4bf5-f0e5-4f7f-9bbe-880fdd867f55</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="SIMPLE_TEXT">
+              <originalText>Não</originalText>
+            </value>
+          </parts>
+        </items>
+      </members>
+      <members xsi:type="ENTRY">
+        <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0002</archetype_id>
+        <rc_id>
+          <extension>9b68df16-e238-48c4-a44f-1c575889bae5</extension>
+          <root>
+            <oid>2010.05.24.1.10003</oid>
+          </root>
+        </rc_id>
+        <uncertainty_expressed>false</uncertainty_expressed>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0069</archetype_id>
+          <rc_id>
+            <extension>fc176d63-25fa-44f1-9a91-64037169b520</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0080</archetype_id>
+            <rc_id>
+              <extension>b48ac007-b533-4963-b2d4-b2a7621fa13d</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="INT">
+              <value>4</value>
+            </value>
+          </parts>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0095</archetype_id>
+            <rc_id>
+              <extension>46ca3a0f-3356-4aa2-9eca-031aeeaca29f</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="INT">
+              <value>1</value>
+            </value>
+          </parts>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0100</archetype_id>
+            <rc_id>
+              <extension>44c55116-648a-4a85-9d4e-21b925bcc1e5</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="INT">
+              <value>3</value>
+            </value>
+          </parts>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0104</archetype_id>
+            <rc_id>
+              <extension>851a24ec-7a3c-4ab7-814e-32f15aa41c7e</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="INT">
+              <value>1</value>
+            </value>
+          </parts>
+        </items>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0010</archetype_id>
+          <rc_id>
+            <extension>04948b95-87c1-4bc8-b3fc-8620aa35fd70</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="SIMPLE_TEXT">
+            <originalText>Parto</originalText>
+          </value>
+        </items>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0004</archetype_id>
+          <rc_id>
+            <extension>df28d8c1-c09a-4eb7-9d81-4726c3a472c4</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="CV">
+            <codingScheme>
+              <oid>2010.05.24.1.54</oid>
+            </codingScheme>
+            <codeValue>O82.9</codeValue>
+          </value>
+        </items>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0036</archetype_id>
+          <rc_id>
+            <extension>8f4a9476-33dd-4eef-bb82-3d5863af23b1</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+        </items>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0066</archetype_id>
+          <rc_id>
+            <extension>9f557fd7-8f42-44c5-b144-1767339b8d8d</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+        </items>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0110</archetype_id>
+          <rc_id>
+            <extension>182c6af9-e456-410f-953c-c4c69ba39d14</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+        </items>
+      </members>
+      <members xsi:type="ENTRY">
+        <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0129</archetype_id>
+        <rc_id>
+          <extension>59254786-de28-4b65-9082-9eb07ee24487</extension>
+          <root>
+            <oid>2010.05.24.1.10003</oid>
+          </root>
+        </rc_id>
+        <uncertainty_expressed>false</uncertainty_expressed>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0144</archetype_id>
+          <rc_id>
+            <extension>978ae0f2-766d-4b93-8d47-3fb52656c969</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="SIMPLE_TEXT">
+            <originalText>Única</originalText>
+          </value>
+        </items>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0048</archetype_id>
+          <rc_id>
+            <extension>b3dcc138-1971-4ee1-9f03-0133847184fb</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0189</archetype_id>
+            <rc_id>
+              <extension>3d01ec7d-0c7b-454b-882e-a34820563849</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="SIMPLE_TEXT">
+              <originalText>Medico</originalText>
+            </value>
+          </parts>
+        </items>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0202</archetype_id>
+          <rc_id>
+            <extension>36458607-9ce0-4768-a060-2d722b9e7b29</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0207</archetype_id>
+            <rc_id>
+              <extension>1e46ef1a-d3f2-434e-b43b-f6381b1f81f8</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="SIMPLE_TEXT">
+              <originalText>Outra Complicacao: descontrole glicemia e PA</originalText>
+            </value>
+          </parts>
+        </items>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0024</archetype_id>
+          <rc_id>
+            <extension>672e3d53-4f85-4f85-b810-681ca9447a39</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+        </items>
+      </members>
+      <members xsi:type="ENTRY">
+        <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0211</archetype_id>
+        <rc_id>
+          <extension>18a1195b-79ee-4786-99fe-a92e263fa0ba</extension>
+          <root>
+            <oid>2010.05.24.1.10003</oid>
+          </root>
+        </rc_id>
+        <uncertainty_expressed>false</uncertainty_expressed>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0213</archetype_id>
+          <rc_id>
+            <extension>859e13c8-9902-4460-b974-3bef38a3e97f</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0216</archetype_id>
+            <rc_id>
+              <extension>b4fffc26-1d1a-43d4-9dd6-7b550ec87028</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="SIMPLE_TEXT">
+              <originalText>Negativo</originalText>
+            </value>
+          </parts>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0223</archetype_id>
+            <rc_id>
+              <extension>11bb35bc-b669-4fa0-9ba4-3603fc706968</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="SIMPLE_TEXT">
+              <originalText>A</originalText>
+            </value>
+          </parts>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0229</archetype_id>
+            <rc_id>
+              <extension>14acd966-f74e-41f0-aa5c-828d0a60ad4a</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="SIMPLE_TEXT">
+              <originalText>Positivo</originalText>
+            </value>
+          </parts>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0046</archetype_id>
+            <rc_id>
+              <extension>4ed916c3-083d-4bdc-80bd-5d749285d399</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="SIMPLE_TEXT">
+              <originalText>Negativo</originalText>
+            </value>
+          </parts>
+        </items>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0239</archetype_id>
+          <rc_id>
+            <extension>6fe81a32-54e6-4df4-962a-7cd9679c7302</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+        </items>
+      </members>
+      <members xsi:type="ENTRY">
+        <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0252</archetype_id>
+        <rc_id>
+          <extension>a8dd05f3-20ee-43ac-a35c-c20a732aeb6a</extension>
+          <root>
+            <oid>2010.05.24.1.10003</oid>
+          </root>
+        </rc_id>
+        <uncertainty_expressed>false</uncertainty_expressed>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0257</archetype_id>
+          <rc_id>
+            <extension>f7c5347a-d59a-4f89-9502-99a5c1c5539f</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0262</archetype_id>
+            <rc_id>
+              <extension>7f04f7ed-b168-4a20-9e56-3c09bb86a697</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="CV">
+              <codingScheme>
+                <oid>2010.05.24.1.8</oid>
+              </codingScheme>
+              <codeValue>0301050082</codeValue>
+            </value>
+          </parts>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0266</archetype_id>
+            <rc_id>
+              <extension>6b2d6a72-a8a5-47b6-b740-63e258e35ad7</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="SIMPLE_TEXT">
+              <originalText>ATB profilático</originalText>
+            </value>
+          </parts>
+        </items>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0257</archetype_id>
+          <rc_id>
+            <extension>b64f09e0-d51f-4b09-87e8-f66f9937b5fa</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0266</archetype_id>
+            <rc_id>
+              <extension>f634f7df-2418-4354-8318-008f07bdc67a</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="SIMPLE_TEXT">
+              <originalText>Ocitocina 3o. estágio</originalText>
+            </value>
+          </parts>
+        </items>
+      </members>
+      <members xsi:type="ENTRY">
+        <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0272</archetype_id>
+        <rc_id>
+          <extension>81e662a1-eb96-4a18-a5fe-6d57746297b8</extension>
+          <root>
+            <oid>2010.05.24.1.10003</oid>
+          </root>
+        </rc_id>
+        <uncertainty_expressed>false</uncertainty_expressed>
+      </members>
+      <members xsi:type="ENTRY">
+        <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0183</archetype_id>
+        <rc_id>
+          <extension>b4177df8-3973-4e78-9a53-55ddc455d0e1</extension>
+          <root>
+            <oid>2010.05.24.1.10003</oid>
+          </root>
+        </rc_id>
+        <uncertainty_expressed>false</uncertainty_expressed>
+      </members>
+      <members xsi:type="ENTRY">
+        <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0326</archetype_id>
+        <rc_id>
+          <extension>e4365e33-6c69-481f-8805-de9efb801cd2</extension>
+          <root>
+            <oid>2010.05.24.1.10003</oid>
+          </root>
+        </rc_id>
+        <uncertainty_expressed>false</uncertainty_expressed>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0330</archetype_id>
+          <rc_id>
+            <extension>b8a7fee3-b94d-419b-9591-009446fd8d72</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="SIMPLE_TEXT">
+            <originalText>Curado</originalText>
+          </value>
+        </items>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0337</archetype_id>
+          <rc_id>
+            <extension>07cb7ede-e234-491f-8c95-c5cc8c3f8582</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="SIMPLE_TEXT">
+            <originalText>Encaminhamento pa/ outro prof. ou especialista</originalText>
+          </value>
+        </items>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0345</archetype_id>
+          <rc_id>
+            <extension>0e5324a3-d727-4aa4-a624-361f5b78c34c</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+        </items>
+      </members>
+    </content>
+    <content xsi:type="SECTION">
+      <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0045</archetype_id>
+      <rc_id>
+        <extension>7d596416-8a35-4691-bda8-9b16087856d0</extension>
+        <root>
+          <oid>2010.05.24.1.10003</oid>
+        </root>
+      </rc_id>
+      <members xsi:type="ENTRY">
+        <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0130</archetype_id>
+        <rc_id>
+          <extension>0070dc47-6640-45d0-bfe2-381a044fadff</extension>
+          <root>
+            <oid>2010.05.24.1.10003</oid>
+          </root>
+        </rc_id>
+        <uncertainty_expressed>false</uncertainty_expressed>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0052</archetype_id>
+          <rc_id>
+            <extension>dce755a2-cc76-4ec1-9b20-3e81ac320bba</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="INT">
+            <value>1</value>
+          </value>
+        </items>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0131</archetype_id>
+          <rc_id>
+            <extension>cc5d977a-9a98-45b3-84b8-62ed0f9ff9cb</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="TS">
+            <time>2014-10-04T16:46:00</time>
+          </value>
+        </items>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0135</archetype_id>
+          <rc_id>
+            <extension>d0b2c5b8-ddb1-4ebb-bdb6-bdc73eb099ed</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="TS">
+            <time>2014-12-02T08:00:00</time>
+          </value>
+        </items>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0141</archetype_id>
+          <rc_id>
+            <extension>e3373923-c5df-4a6e-b626-2762c2a16e17</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="SIMPLE_TEXT">
+            <originalText>27:15:14:0</originalText>
+          </value>
+        </items>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0157</archetype_id>
+          <rc_id>
+            <extension>32851c77-09d9-4b27-bf15-a60ebb181f94</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0167</archetype_id>
+            <rc_id>
+              <extension>17b6538d-0c6b-403a-9da7-bd060ebf07c4</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="SIMPLE_TEXT">
+              <originalText>Sim</originalText>
+            </value>
+          </parts>
+        </items>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0162</archetype_id>
+          <rc_id>
+            <extension>7ed843be-2784-4ea3-ac5b-daceadc574c3</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="SIMPLE_TEXT">
+            <originalText>Cesariana</originalText>
+          </value>
+        </items>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0168</archetype_id>
+          <rc_id>
+            <extension>f05cafb1-0aa5-4d27-8a5e-5c5b67d49a7e</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0179</archetype_id>
+            <rc_id>
+              <extension>97ce4c3e-1fe2-48c4-b843-c66dd8dfcb6d</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="SIMPLE_TEXT">
+              <originalText>Outras urgências não especificadas,Pré-eclâmpsia grave e eclâmpsia</originalText>
+            </value>
+          </parts>
+        </items>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0193</archetype_id>
+          <rc_id>
+            <extension>9dc4f7d4-7c4a-4f3b-a771-15c132e75cde</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="SIMPLE_TEXT">
+            <originalText>Feminino</originalText>
+          </value>
+        </items>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0212</archetype_id>
+          <rc_id>
+            <extension>33752ec2-ddb9-42c0-baac-f6b482202e7f</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="INT">
+            <value>30</value>
+          </value>
+        </items>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0238</archetype_id>
+          <rc_id>
+            <extension>c6acd750-dbca-46a3-8440-3b1507f3e7b4</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="INT">
+            <value>964</value>
+          </value>
+        </items>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0065</archetype_id>
+          <rc_id>
+            <extension>58138813-424e-4d9a-a618-6f71d8ed1e5c</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="SIMPLE_TEXT">
+            <originalText>Vivo</originalText>
+          </value>
+        </items>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0137</archetype_id>
+          <rc_id>
+            <extension>e7c113fe-82c7-4d99-9500-5e3041ff0ca2</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="SIMPLE_TEXT">
+            <originalText>Passos Iniciais</originalText>
+          </value>
+        </items>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0028</archetype_id>
+          <rc_id>
+            <extension>959b879a-37d8-4a21-9db9-1acc2e6d58d2</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0128</archetype_id>
+            <rc_id>
+              <extension>a258bfe6-f04a-4c3e-aeb2-bc544e3a9c91</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="SIMPLE_TEXT">
+              <originalText>1</originalText>
+            </value>
+          </parts>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0155</archetype_id>
+            <rc_id>
+              <extension>ce804e02-e12f-4b6d-ac3a-aae9f5428190</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="INT">
+              <value>7</value>
+            </value>
+          </parts>
+        </items>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0028</archetype_id>
+          <rc_id>
+            <extension>ff9308b9-179b-4978-a868-e0f9fb071dee</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0128</archetype_id>
+            <rc_id>
+              <extension>a1b43d19-d442-47dd-9c56-e87883b38ad3</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="SIMPLE_TEXT">
+              <originalText>5</originalText>
+            </value>
+          </parts>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0155</archetype_id>
+            <rc_id>
+              <extension>072957e6-4086-41e7-a61e-9549dcdd8911</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="INT">
+              <value>9</value>
+            </value>
+          </parts>
+        </items>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0295</archetype_id>
+          <rc_id>
+            <extension>bdeb8116-c7e5-47a4-a4f7-1aa784f12f53</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+        </items>
+      </members>
+      <members xsi:type="ENTRY">
+        <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0321</archetype_id>
+        <rc_id>
+          <extension>1eb0d7ca-54d4-4983-97bb-47e69dc1c0a6</extension>
+          <root>
+            <oid>2010.05.24.1.10003</oid>
+          </root>
+        </rc_id>
+        <uncertainty_expressed>false</uncertainty_expressed>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0335</archetype_id>
+          <rc_id>
+            <extension>22bb73c0-0651-46bc-8441-ee890b4c4864</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+          <parts xsi:type="CLUSTER">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0466</archetype_id>
+            <rc_id>
+              <extension>1e60c4fd-d186-428e-84e0-1d09ea94b3b5</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <structure_type>
+              <codingScheme>
+                <oid>2010.05.24.1.10008</oid>
+              </codingScheme>
+              <codeValue>STRC01</codeValue>
+            </structure_type>
+            <parts xsi:type="ELEMENT">
+              <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0472</archetype_id>
+              <rc_id>
+                <extension>db83b5ee-5e9d-47e7-a9a6-4daba7c927ba</extension>
+                <root>
+                  <oid>2010.05.24.1.10003</oid>
+                </root>
+              </rc_id>
+              <synthesised>false</synthesised>
+              <sensitivity>3</sensitivity>
+              <value xsi:type="SIMPLE_TEXT">
+                <originalText>Realizado</originalText>
+              </value>
+            </parts>
+            <parts xsi:type="ELEMENT">
+              <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0481</archetype_id>
+              <rc_id>
+                <extension>de6aedd6-38dc-4107-8739-7224ba5eb975</extension>
+                <root>
+                  <oid>2010.05.24.1.10003</oid>
+                </root>
+              </rc_id>
+              <synthesised>false</synthesised>
+              <sensitivity>3</sensitivity>
+              <value xsi:type="SIMPLE_TEXT">
+                <originalText>Normal</originalText>
+              </value>
+            </parts>
+            <parts xsi:type="ELEMENT">
+              <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0489</archetype_id>
+              <rc_id>
+                <extension>eed28bdc-308e-460c-a9d4-644ccf9e04f9</extension>
+                <root>
+                  <oid>2010.05.24.1.10003</oid>
+                </root>
+              </rc_id>
+              <synthesised>false</synthesised>
+              <sensitivity>3</sensitivity>
+              <value xsi:type="INT">
+                <value>0027049</value>
+              </value>
+            </parts>
+          </parts>
+          <parts xsi:type="CLUSTER">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0030</archetype_id>
+            <rc_id>
+              <extension>16c5a1d4-b342-4d64-a46f-7117b98d9e25</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <structure_type>
+              <codingScheme>
+                <oid>2010.05.24.1.10008</oid>
+              </codingScheme>
+              <codeValue>STRC01</codeValue>
+            </structure_type>
+            <parts xsi:type="ELEMENT">
+              <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0445</archetype_id>
+              <rc_id>
+                <extension>920197c1-c325-4314-88a3-bb4e90f97326</extension>
+                <root>
+                  <oid>2010.05.24.1.10003</oid>
+                </root>
+              </rc_id>
+              <synthesised>false</synthesised>
+              <sensitivity>3</sensitivity>
+              <value xsi:type="SIMPLE_TEXT">
+                <originalText>Não Realizado</originalText>
+              </value>
+            </parts>
+            <parts xsi:type="ELEMENT">
+              <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0075</archetype_id>
+              <rc_id>
+                <extension>32deca9b-3e05-4ad3-8798-c1278088ef78</extension>
+                <root>
+                  <oid>2010.05.24.1.10003</oid>
+                </root>
+              </rc_id>
+              <synthesised>false</synthesised>
+              <sensitivity>3</sensitivity>
+              <value xsi:type="INT">
+                <value>0027049</value>
+              </value>
+            </parts>
+          </parts>
+          <parts xsi:type="CLUSTER">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0081</archetype_id>
+            <rc_id>
+              <extension>15b46635-f1ae-4e25-961f-6669b71d1044</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <structure_type>
+              <codingScheme>
+                <oid>2010.05.24.1.10008</oid>
+              </codingScheme>
+              <codeValue>STRC01</codeValue>
+            </structure_type>
+            <parts xsi:type="ELEMENT">
+              <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0093</archetype_id>
+              <rc_id>
+                <extension>448e9bec-5e28-48cf-8aff-e349d1d2bebc</extension>
+                <root>
+                  <oid>2010.05.24.1.10003</oid>
+                </root>
+              </rc_id>
+              <synthesised>false</synthesised>
+              <sensitivity>3</sensitivity>
+              <value xsi:type="SIMPLE_TEXT">
+                <originalText>Realizado</originalText>
+              </value>
+            </parts>
+            <parts xsi:type="ELEMENT">
+              <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0397</archetype_id>
+              <rc_id>
+                <extension>dbb6dfc2-9534-45f5-9312-29b45f768118</extension>
+                <root>
+                  <oid>2010.05.24.1.10003</oid>
+                </root>
+              </rc_id>
+              <synthesised>false</synthesised>
+              <sensitivity>3</sensitivity>
+              <value xsi:type="INT">
+                <value>0027049</value>
+              </value>
+            </parts>
+          </parts>
+          <parts xsi:type="CLUSTER">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0412</archetype_id>
+            <rc_id>
+              <extension>2404fd0c-a5c4-4a03-8a83-8cde6633671e</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <structure_type>
+              <codingScheme>
+                <oid>2010.05.24.1.10008</oid>
+              </codingScheme>
+              <codeValue>STRC01</codeValue>
+            </structure_type>
+            <parts xsi:type="ELEMENT">
+              <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0453</archetype_id>
+              <rc_id>
+                <extension>d9477917-d8a4-44d8-9e76-60b0bfd24cfb</extension>
+                <root>
+                  <oid>2010.05.24.1.10003</oid>
+                </root>
+              </rc_id>
+              <synthesised>false</synthesised>
+              <sensitivity>3</sensitivity>
+              <value xsi:type="SIMPLE_TEXT">
+                <originalText>Realizado</originalText>
+              </value>
+            </parts>
+            <parts xsi:type="ELEMENT">
+              <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0439</archetype_id>
+              <rc_id>
+                <extension>c029d1e3-d24d-4e42-bb95-e0a9f2aa3198</extension>
+                <root>
+                  <oid>2010.05.24.1.10003</oid>
+                </root>
+              </rc_id>
+              <synthesised>false</synthesised>
+              <sensitivity>3</sensitivity>
+              <value xsi:type="SIMPLE_TEXT">
+                <originalText>Normal</originalText>
+              </value>
+            </parts>
+            <parts xsi:type="ELEMENT">
+              <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0462</archetype_id>
+              <rc_id>
+                <extension>76e7aeb1-d400-4ddd-b8aa-a37a9c64eb50</extension>
+                <root>
+                  <oid>2010.05.24.1.10003</oid>
+                </root>
+              </rc_id>
+              <synthesised>false</synthesised>
+              <sensitivity>3</sensitivity>
+              <value xsi:type="INT">
+                <value>0027049</value>
+              </value>
+            </parts>
+          </parts>
+        </items>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0399</archetype_id>
+          <rc_id>
+            <extension>10dee69c-97fd-43c2-9f84-f79744e1dcaa</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+        </items>
+      </members>
+      <members xsi:type="ENTRY">
+        <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0416</archetype_id>
+        <rc_id>
+          <extension>78bb1ab0-a51c-4880-a7d8-98ca3ce50e37</extension>
+          <root>
+            <oid>2010.05.24.1.10003</oid>
+          </root>
+        </rc_id>
+        <uncertainty_expressed>false</uncertainty_expressed>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0429</archetype_id>
+          <rc_id>
+            <extension>b8b2d6d8-6686-406f-bfe9-3560ab66acd1</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0435</archetype_id>
+            <rc_id>
+              <extension>0924782f-65b2-4968-ab0a-ef35f6015bfd</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="SIMPLE_TEXT">
+              <originalText>Populacao Geral</originalText>
+            </value>
+          </parts>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0441</archetype_id>
+            <rc_id>
+              <extension>c83d7858-bd75-43ca-9a25-240b3a843071</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="SIMPLE_TEXT">
+              <originalText>Rotina</originalText>
+            </value>
+          </parts>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0446</archetype_id>
+            <rc_id>
+              <extension>74becc78-497a-4441-bddc-112447f197ca</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="SIMPLE_TEXT">
+              <originalText>Administracao de Imunobiologico</originalText>
+            </value>
+          </parts>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0451</archetype_id>
+            <rc_id>
+              <extension>a0ce24cb-f102-4c20-9021-8d698861531b</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="SIMPLE_TEXT">
+              <originalText>Vacina contra Hepatite B</originalText>
+            </value>
+          </parts>
+        </items>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0047</archetype_id>
+          <rc_id>
+            <extension>204680e7-b17a-455d-981f-0a9efe0bd19d</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0125</archetype_id>
+            <rc_id>
+              <extension>1ad71651-0549-48ad-99c0-5b2506d3a181</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="CV">
+              <codingScheme>
+                <oid>2010.05.24.1.8</oid>
+              </codingScheme>
+              <codeValue>0603060013</codeValue>
+            </value>
+          </parts>
+          <parts xsi:type="ELEMENT">
+            <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0154</archetype_id>
+            <rc_id>
+              <extension>dfc557de-b68c-4217-be23-7e342d766b89</extension>
+              <root>
+                <oid>2010.05.24.1.10003</oid>
+              </root>
+            </rc_id>
+            <synthesised>false</synthesised>
+            <sensitivity>3</sensitivity>
+            <value xsi:type="SIMPLE_TEXT">
+              <originalText>Recebeu Surfactante</originalText>
+            </value>
+          </parts>
+        </items>
+      </members>
+      <members xsi:type="ENTRY">
+        <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0233</archetype_id>
+        <rc_id>
+          <extension>c65b3939-376c-47ce-bb7e-d1ec70b75a66</extension>
+          <root>
+            <oid>2010.05.24.1.10003</oid>
+          </root>
+        </rc_id>
+        <uncertainty_expressed>false</uncertainty_expressed>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0303</archetype_id>
+          <rc_id>
+            <extension>ab217a2b-78ca-478b-9b4e-d463c609c3d7</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+        </items>
+      </members>
+      <members xsi:type="ENTRY">
+        <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0329</archetype_id>
+        <rc_id>
+          <extension>57b7ed1b-ca00-4ca8-bfa0-471a7025eabf</extension>
+          <root>
+            <oid>2010.05.24.1.10003</oid>
+          </root>
+        </rc_id>
+        <uncertainty_expressed>false</uncertainty_expressed>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0331</archetype_id>
+          <rc_id>
+            <extension>f7230792-0d72-4bc6-b13a-26e78adc3e75</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+        </items>
+      </members>
+      <members xsi:type="ENTRY">
+        <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0359</archetype_id>
+        <rc_id>
+          <extension>70ea0295-a0cf-40c4-8681-e246228fe950</extension>
+          <root>
+            <oid>2010.05.24.1.10003</oid>
+          </root>
+        </rc_id>
+        <uncertainty_expressed>false</uncertainty_expressed>
+      </members>
+      <members xsi:type="ENTRY">
+        <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0356</archetype_id>
+        <rc_id>
+          <extension>2f29cc8a-6489-4528-81b8-85732d5bb3cf</extension>
+          <root>
+            <oid>2010.05.24.1.10003</oid>
+          </root>
+        </rc_id>
+        <uncertainty_expressed>false</uncertainty_expressed>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0374</archetype_id>
+          <rc_id>
+            <extension>93675252-8b6e-4050-8a9f-1c9dfd60121f</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="SIMPLE_TEXT">
+            <originalText>Curado</originalText>
+          </value>
+        </items>
+        <items xsi:type="ELEMENT">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0379</archetype_id>
+          <rc_id>
+            <extension>4230c4bc-4615-41db-b5d7-c00b1ed9a3b4</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <value xsi:type="SIMPLE_TEXT">
+            <originalText>Encaminhamento pa/ outro prof. ou especialista</originalText>
+          </value>
+        </items>
+        <items xsi:type="CLUSTER">
+          <archetype_id>CEN-EN13606-COMPOSITION.Bres_Sumario_Alta_Obstetrica_Materna_Publicado.v2/at0389</archetype_id>
+          <rc_id>
+            <extension>e6eeeaf4-0123-43fa-b869-300a62484131</extension>
+            <root>
+              <oid>2010.05.24.1.10003</oid>
+            </root>
+          </rc_id>
+          <synthesised>false</synthesised>
+          <sensitivity>3</sensitivity>
+          <structure_type>
+            <codingScheme>
+              <oid>2010.05.24.1.10008</oid>
+            </codingScheme>
+            <codeValue>STRC01</codeValue>
+          </structure_type>
+        </items>
+      </members>
+    </content>
+  </all_compositions>
+  <criteria>
+    <time_period>
+      <low>
+        <time>2016-06-22T17:55:29</time>
+      </low>
+      <high>
+        <time>2016-06-22T17:55:29</time>
+      </high>
+      <lowClosed>true</lowClosed>
+      <highClosed>true</highClosed>
+    </time_period>
+  </criteria>
+</EHR_EXTRACT>

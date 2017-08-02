@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This web.xml file is not required when using Servlet 3.0 container, 
+     see implementation details http://jersey.java.net/nonav/documentation/latest/jax-rs.html#d4e194 -->
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+    <servlet>
+        <servlet-name>Jersey Web Application</servlet-name>
+        <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+        <init-param>
+            <param-name>com.sun.jersey.config.property.packages</param-name>
+            <param-value>com.ufmg.ppsus.xmlflat_parser</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Jersey Web Application</servlet-name>
+        <url-pattern>/webresources/*</url-pattern>
+    </servlet-mapping>
+<security-constraint>
+     <web-resource-collection>
+          <web-resource-name>Jersey Web Application</web-resource-name>
+          <description>
+             Security constraint for
+             resources in the orders/east directory
+          </description>
+          <url-pattern>/webresources/*</url-pattern>
+          <http-method>POST</http-method>
+          <http-method>GET</http-method>
+     </web-resource-collection>
+</security-constraint>    
+</web-app>
